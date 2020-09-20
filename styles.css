@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  padding: 50px;
+  text-align: center;
+  background-color: #D2F1FF;
+}
+
+p:first-of-type {
+  margin-top: 20px;
+}
+
+p {
+  padding: 20px;
+
+}
+
+ul {
+  list-style-type: circle;
+  margin-left: 75px;
+}
+
+ol {
+  list-style-type: upper-roman;
+  margin-left: 75px;
+}
+
+.links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+
+  border-bottom: 17px solid #66CCFF;
+}
+
+.link {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+ .link a {
+  display: block;
+  color: #FFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.link a:hover {
+  background-color: #4F646F;
+}
+
+.active {
+  background-color: #66CCFF;
+}
+
+#gitLink:visited {
+  color: pink;
+}
+
+#gitLink:hover, #gitLink:visited:hover {
+  color: aqua;
+}
+
+#gitLink:active, #gitLink:visited:active {
+  color: red;
+}
